@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import absolute_import
 import numpy as np
 
 from keras import backend as K
@@ -9,7 +10,7 @@ from keras import initializers
 
 #from quantized_ops import quantize, clip_through
 
-from __future__ import absolute_import
+
 import keras.backend as K
 import tensorflow as tf
 import numpy as np
